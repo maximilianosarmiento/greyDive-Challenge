@@ -48,18 +48,6 @@ button:hover {
   background-color: var(--azul);
 }
 
-/* @media (min-width:360px){
-    .logoLink{
-        font-size: 10px;
-    }
-    .buttons{
-        flex-direction: column;
-    }
-    .button{
-        width: 5px;
-    }
-} */
-
 @media (max-width: 640px) and (min-width: 360px) {
   .logoLink {
     font-size: 10px;

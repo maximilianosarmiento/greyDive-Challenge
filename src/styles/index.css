@@ -27,14 +27,17 @@ body {
   --azul: rgb(90, 62, 247);
 }
 
-@media (max-width: 920px) and (min-width: 360px) {
-  .titulo {
-    font-size: large;
-  }
-  .subtitulo {
-    font-size: small;
-  }
+@media (max-width: 1200px) and (min-width: 360px) {
   .container {
     width: 90%;
+  }
+}
+
+@media (max-width: 640px) and (min-width: 360px) {
+  .titulo{
+    font-size: larger;
+  }
+  .subtitulo{
+    font-size: medium;
   }
 }

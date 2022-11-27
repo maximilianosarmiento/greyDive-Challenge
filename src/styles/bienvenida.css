@@ -4,3 +4,20 @@
   text-align: center;
   margin: 100px 0;
 }
+
+.tituloBienvenida{
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.subtituloBienvenida{
+  color: var(--gris);
+}
+
+@media (max-width: 640px) and (min-width: 360px) {
+  .tituloBienvenida{
+    font-size: large;
+  }
+  .subtituloBienvenida{
+    font-size: small;
+  }
+}
