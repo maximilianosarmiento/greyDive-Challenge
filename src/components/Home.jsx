@@ -1,7 +1,6 @@
 import { useParams } from 'react-router-dom'
 import db from '../utilities/db.json'
 import Header from './Header'
-import NavBar from './NavBar'
 import Tareas from './Tareas'
 import Transcripcion from './Transcripcion'
 import Video from './Video'
@@ -12,7 +11,7 @@ const Home = (props) => {
   const filter = id && db.find((item) => item.cliente === id.id)
   console.log(filter)
   console.log(id.tester)
-  console.log(filter.transcripcion.replace(/(\r\n|\n|\r)/gm, ""))
+  console.log(filter.transcripcion.replace(/<br\s*[/]?>/gi, "\n"))
 
   return (
     <>  

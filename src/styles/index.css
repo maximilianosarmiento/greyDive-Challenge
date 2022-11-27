@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--azul);
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.titulo{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:whitesmoke
+}
+.subtitulo{
+    color: var(--gris);
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+:root{
+    --gris: rgb(202, 202, 202);
+    --azul: rgb(90, 62, 247);
+}
+
+@media (max-width:920px) and (min-width: 360px){
+    .titulo{
+        font-size: large;
+    }
+    .subtitulo {
+        font-size: small;
+    }
+    .container{
+        width: 90%;
+    }
+}
