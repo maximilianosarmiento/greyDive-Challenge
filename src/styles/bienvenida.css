@@ -1,8 +1,6 @@
-.bienvenida{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 100px 0;
+.bienvenida {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px 0;
 }
-
-

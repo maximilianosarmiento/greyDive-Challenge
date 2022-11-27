@@ -1,15 +1,14 @@
-
-.parrafoTranscripcion{
-    width: 90%;
-    height: 250px;
-    margin:auto;
-    margin-top: 10px;
-    overflow: scroll;
-    color: var(--gris);
+.parrafoTranscripcion {
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  margin-top: 10px;
+  overflow: scroll;
+  color: var(--gris);
 }
 
-@media (max-width:640px) and (min-width: 360px){
-    .parrafoTranscripcion{
-        font-size: small;
-    }
+@media (max-width: 640px) and (min-width: 360px) {
+  .parrafoTranscripcion {
+    font-size: small;
+  }
 }

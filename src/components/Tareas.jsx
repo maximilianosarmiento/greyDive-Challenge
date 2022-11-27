@@ -9,7 +9,7 @@ export default function Tareas({ tareas, escenario }) {
       <h3 className="subtitulo">{escenario}</h3>
       <h2 className="titulo">Tareas:</h2>
 
-      <div >
+      <div>
         {tareas.map((tarea, index) => {
           return (
             <div className="tareasContainer" key={index}>

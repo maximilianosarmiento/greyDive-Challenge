@@ -1,14 +1,14 @@
-.header{
-    width: 1200px;
-    margin:auto;
+.header {
+  width: 1200px;
+  margin: auto;
 }
-.titulo{
-    color: whitesmoke;
-    padding-bottom: 10px;
+.titulo {
+  color: whitesmoke;
+  padding-bottom: 10px;
 }
 
-.infoHeader{
-    color: var(--gris);
-    width: 1150px;
-    margin:auto
+.infoHeader {
+  color: var(--gris);
+  width: 1150px;
+  margin: auto;
 }
